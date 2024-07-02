@@ -1,0 +1,6 @@
+print("reajuste salarial")
+funcionario=str(input("digite o nome do funcionario: "))
+cód=int(input("digite seu código: "))
+salario=int(input("digite seu salario: "))
+contagem=salario+ (salario *15/100)
+print(f'seu salario foi aumentado para:',contagem)
